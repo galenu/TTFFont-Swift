@@ -1,0 +1,16 @@
+PODS:
+  - TTFFont-Swift (1.0.0)
+
+DEPENDENCIES:
+  - TTFFont-Swift (from `../`)
+
+EXTERNAL SOURCES:
+  TTFFont-Swift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TTFFont-Swift: ee183e7030096deaee12cbd19eb5fdc56c4f918a
+
+PODFILE CHECKSUM: ef0cc47a4d3002149a2a6962917b74e51fcf4dd3
+
+COCOAPODS: 1.15.2

@@ -1,0 +1,782 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BAC35440DC5AFDA3F05CB6B86E2C3DC /* TTFFont-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 89DFF270FF9E26061F18B87B90841CAB /* TTFFont-Swift-dummy.m */; };
+		3C94248FC5812DA10416B5373C72F701 /* TTFFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931FC2CF032E2C6FA2018054A74301E6 /* TTFFont.swift */; };
+		4B8C1692AA301744C742A9E07AD038C5 /* Pods-TTFFont-Swift_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C9BA0E5353FACFF3F307819348380BFF /* Pods-TTFFont-Swift_Tests-dummy.m */; };
+		56926CBDB83BAA9A3B102154958B2B5E /* Pods-TTFFont-Swift_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ED9061696763DA9DDFBD9E6C222C30C /* Pods-TTFFont-Swift_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5AE3869F62764BAE68B833DA9CE75C83 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		72AC8B30D0276570E8B48678087F7101 /* TTFFont-Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 998D27B2F37DC49BFA4E1FD8E9F7C541 /* TTFFont-Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		971FC28B46016F5B7BB59C0E44F9A6A2 /* Pods-TTFFont-Swift_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BDE99FC15EED3D4D2150090F301B23F /* Pods-TTFFont-Swift_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B46CD235136BF0CD4C3D321B3BA10128 /* Pods-TTFFont-Swift_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2311C9FDAA32B9FE9880B513465437AB /* Pods-TTFFont-Swift_Example-dummy.m */; };
+		B6C9224DC2DBAA499A5C87DA85EE930B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		CCA53015CFE27F55552180E90A3EB1D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A7D2E4195AA380747C6018DDE6F9FBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 079EE789B9EF3AFF018D79223A557642;
+			remoteInfo = "Pods-TTFFont-Swift_Example";
+		};
+		E7359CBBF84BDC51FD25320F2EB1BA40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9C51183A8D0D58CDEA0DD0A1BEC7FF4;
+			remoteInfo = "TTFFont-Swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C080B189DA82F4C48EA73333B202D5C /* Pods-TTFFont-Swift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTFFont-Swift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		0C943C98C51D4BAA042833FED98ADF5D /* Pods-TTFFont-Swift_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TTFFont-Swift_Example.modulemap"; sourceTree = "<group>"; };
+		132D43657597E604B518AA4BB1E2FAC5 /* Pods-TTFFont-Swift_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TTFFont-Swift_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		14C239013B4C3111261630488BC5C7E6 /* TTFFont-Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "TTFFont-Swift.modulemap"; sourceTree = "<group>"; };
+		22F9E6AD69F96D7B32ECD2A55687DDC5 /* TTFFont-Swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TTFFont-Swift-Info.plist"; sourceTree = "<group>"; };
+		2311C9FDAA32B9FE9880B513465437AB /* Pods-TTFFont-Swift_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TTFFont-Swift_Example-dummy.m"; sourceTree = "<group>"; };
+		39EFCA56A26560CB89163C9585A5EB66 /* Pods-TTFFont-Swift_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TTFFont-Swift_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3BDE99FC15EED3D4D2150090F301B23F /* Pods-TTFFont-Swift_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TTFFont-Swift_Tests-umbrella.h"; sourceTree = "<group>"; };
+		4136A19FC341B803927DEC5A8252C81F /* Pods-TTFFont-Swift_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TTFFont-Swift_Tests.modulemap"; sourceTree = "<group>"; };
+		43A96E4A58E325CC4BEEC2F10A85462B /* TTFFont-Swift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "TTFFont-Swift"; path = TTFFont_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D79531F79559E3F34AAB0CD80FFFCBD /* Pods-TTFFont-Swift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTFFont-Swift_Example.release.xcconfig"; sourceTree = "<group>"; };
+		55363245827AA62D68143CFC37E6356D /* Pods-TTFFont-Swift_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TTFFont-Swift_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6007189C3C6E09F2562F59B0F90E6294 /* TTFFont-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "TTFFont-Swift.debug.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		79F24BE602CD54761E1579D798FC953E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		89DFF270FF9E26061F18B87B90841CAB /* TTFFont-Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TTFFont-Swift-dummy.m"; sourceTree = "<group>"; };
+		8ED9061696763DA9DDFBD9E6C222C30C /* Pods-TTFFont-Swift_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TTFFont-Swift_Example-umbrella.h"; sourceTree = "<group>"; };
+		931FC2CF032E2C6FA2018054A74301E6 /* TTFFont.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TTFFont.swift; path = "TTFFont-Swift/Classes/TTFFont.swift"; sourceTree = "<group>"; };
+		998D27B2F37DC49BFA4E1FD8E9F7C541 /* TTFFont-Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TTFFont-Swift-umbrella.h"; sourceTree = "<group>"; };
+		9B7ED82E54A24B77D39C490FB357BE36 /* Pods-TTFFont-Swift_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TTFFont-Swift_Example-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A432A54A004DADECD0664E62E5C0A083 /* Pods-TTFFont-Swift_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TTFFont-Swift_Example"; path = Pods_TTFFont_Swift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4F150A391FAC94C916950FFADD1082E /* Pods-TTFFont-Swift_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TTFFont-Swift_Example-frameworks.sh"; sourceTree = "<group>"; };
+		A7D9ABCBDD70141D047E759A4C9C201B /* TTFFont-Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TTFFont-Swift-prefix.pch"; sourceTree = "<group>"; };
+		ABA5D1C0936896F3165FF3F21336AD98 /* Pods-TTFFont-Swift_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TTFFont-Swift_Tests-Info.plist"; sourceTree = "<group>"; };
+		B1ACCB1CCD707300F88BF8159B3E4406 /* TTFFont-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "TTFFont-Swift.release.xcconfig"; sourceTree = "<group>"; };
+		B3048AF8A2B973413102A32486FBCAE5 /* Pods-TTFFont-Swift_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TTFFont-Swift_Tests"; path = Pods_TTFFont_Swift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2F631FEE1DEFF1F651760EB46E8AF37 /* Pods-TTFFont-Swift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTFFont-Swift_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C9BA0E5353FACFF3F307819348380BFF /* Pods-TTFFont-Swift_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TTFFont-Swift_Tests-dummy.m"; sourceTree = "<group>"; };
+		E54D9DBD99DD704E97C209A6214B6672 /* Pods-TTFFont-Swift_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TTFFont-Swift_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		E8D159EAB643A64B0FBB779AE65D32A7 /* Pods-TTFFont-Swift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTFFont-Swift_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F02E546F94E49AED088566C8D1ABEC66 /* TTFFont-Swift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "TTFFont-Swift.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F2DD4C00AE28F94449A08FB29EDCA518 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CC619888786FE9F162D1B39CF320440 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AE3869F62764BAE68B833DA9CE75C83 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ECB1E65577B7F042FFB8DDDB5AF763E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCA53015CFE27F55552180E90A3EB1D6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6B7DE28A3FF68365374217C9E782EA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6C9224DC2DBAA499A5C87DA85EE930B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1ED535F075029CB86792D9446026E648 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A03AB6DEBB9B1FD601736FF1EDC05380 /* TTFFont-Swift */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		2EC66945783FBC1D63752D565A27E885 /* Pods-TTFFont-Swift_Example */ = {
+			isa = PBXGroup;
+			children = (
+				0C943C98C51D4BAA042833FED98ADF5D /* Pods-TTFFont-Swift_Example.modulemap */,
+				55363245827AA62D68143CFC37E6356D /* Pods-TTFFont-Swift_Example-acknowledgements.markdown */,
+				E54D9DBD99DD704E97C209A6214B6672 /* Pods-TTFFont-Swift_Example-acknowledgements.plist */,
+				2311C9FDAA32B9FE9880B513465437AB /* Pods-TTFFont-Swift_Example-dummy.m */,
+				A4F150A391FAC94C916950FFADD1082E /* Pods-TTFFont-Swift_Example-frameworks.sh */,
+				9B7ED82E54A24B77D39C490FB357BE36 /* Pods-TTFFont-Swift_Example-Info.plist */,
+				8ED9061696763DA9DDFBD9E6C222C30C /* Pods-TTFFont-Swift_Example-umbrella.h */,
+				C2F631FEE1DEFF1F651760EB46E8AF37 /* Pods-TTFFont-Swift_Example.debug.xcconfig */,
+				4D79531F79559E3F34AAB0CD80FFFCBD /* Pods-TTFFont-Swift_Example.release.xcconfig */,
+			);
+			name = "Pods-TTFFont-Swift_Example";
+			path = "Target Support Files/Pods-TTFFont-Swift_Example";
+			sourceTree = "<group>";
+		};
+		3483049F60F1B551C60831E1AA091C24 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2EC66945783FBC1D63752D565A27E885 /* Pods-TTFFont-Swift_Example */,
+				9A688C15C27268778EBF96F8588798E4 /* Pods-TTFFont-Swift_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9A688C15C27268778EBF96F8588798E4 /* Pods-TTFFont-Swift_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4136A19FC341B803927DEC5A8252C81F /* Pods-TTFFont-Swift_Tests.modulemap */,
+				39EFCA56A26560CB89163C9585A5EB66 /* Pods-TTFFont-Swift_Tests-acknowledgements.markdown */,
+				132D43657597E604B518AA4BB1E2FAC5 /* Pods-TTFFont-Swift_Tests-acknowledgements.plist */,
+				C9BA0E5353FACFF3F307819348380BFF /* Pods-TTFFont-Swift_Tests-dummy.m */,
+				ABA5D1C0936896F3165FF3F21336AD98 /* Pods-TTFFont-Swift_Tests-Info.plist */,
+				3BDE99FC15EED3D4D2150090F301B23F /* Pods-TTFFont-Swift_Tests-umbrella.h */,
+				0C080B189DA82F4C48EA73333B202D5C /* Pods-TTFFont-Swift_Tests.debug.xcconfig */,
+				E8D159EAB643A64B0FBB779AE65D32A7 /* Pods-TTFFont-Swift_Tests.release.xcconfig */,
+			);
+			name = "Pods-TTFFont-Swift_Tests";
+			path = "Target Support Files/Pods-TTFFont-Swift_Tests";
+			sourceTree = "<group>";
+		};
+		A03AB6DEBB9B1FD601736FF1EDC05380 /* TTFFont-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				931FC2CF032E2C6FA2018054A74301E6 /* TTFFont.swift */,
+				A3B15BC834B967A807EAD1412F0AB560 /* Pod */,
+				C5B2A863D2D5B54DCAE398694373AA4A /* Support Files */,
+			);
+			name = "TTFFont-Swift";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		A3B15BC834B967A807EAD1412F0AB560 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				79F24BE602CD54761E1579D798FC953E /* LICENSE */,
+				F2DD4C00AE28F94449A08FB29EDCA518 /* README.md */,
+				F02E546F94E49AED088566C8D1ABEC66 /* TTFFont-Swift.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C5B2A863D2D5B54DCAE398694373AA4A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				14C239013B4C3111261630488BC5C7E6 /* TTFFont-Swift.modulemap */,
+				89DFF270FF9E26061F18B87B90841CAB /* TTFFont-Swift-dummy.m */,
+				22F9E6AD69F96D7B32ECD2A55687DDC5 /* TTFFont-Swift-Info.plist */,
+				A7D9ABCBDD70141D047E759A4C9C201B /* TTFFont-Swift-prefix.pch */,
+				998D27B2F37DC49BFA4E1FD8E9F7C541 /* TTFFont-Swift-umbrella.h */,
+				6007189C3C6E09F2562F59B0F90E6294 /* TTFFont-Swift.debug.xcconfig */,
+				B1ACCB1CCD707300F88BF8159B3E4406 /* TTFFont-Swift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TTFFont-Swift";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1ED535F075029CB86792D9446026E648 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				D9A7BA2443CAF26FF0CADD47D0A39789 /* Products */,
+				3483049F60F1B551C60831E1AA091C24 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9A7BA2443CAF26FF0CADD47D0A39789 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A432A54A004DADECD0664E62E5C0A083 /* Pods-TTFFont-Swift_Example */,
+				B3048AF8A2B973413102A32486FBCAE5 /* Pods-TTFFont-Swift_Tests */,
+				43A96E4A58E325CC4BEEC2F10A85462B /* TTFFont-Swift */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2F06300D7F3859E68DF6D54279DF25C1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56926CBDB83BAA9A3B102154958B2B5E /* Pods-TTFFont-Swift_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8776F15526ECBEDE6D0FBDB0AC71D91D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72AC8B30D0276570E8B48678087F7101 /* TTFFont-Swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F38777E15CC62E689CEA82E85FE3B9C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				971FC28B46016F5B7BB59C0E44F9A6A2 /* Pods-TTFFont-Swift_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		079EE789B9EF3AFF018D79223A557642 /* Pods-TTFFont-Swift_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05A7FFA746D6EB2CE67099AC673C9558 /* Build configuration list for PBXNativeTarget "Pods-TTFFont-Swift_Example" */;
+			buildPhases = (
+				2F06300D7F3859E68DF6D54279DF25C1 /* Headers */,
+				A4ACCFB1029AC9B9C047FD734087570A /* Sources */,
+				8ECB1E65577B7F042FFB8DDDB5AF763E /* Frameworks */,
+				4ABB2847675CF480C54A245E6AAD8C05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9535120B3B9D6C417538A185C7B64A06 /* PBXTargetDependency */,
+			);
+			name = "Pods-TTFFont-Swift_Example";
+			productName = Pods_TTFFont_Swift_Example;
+			productReference = A432A54A004DADECD0664E62E5C0A083 /* Pods-TTFFont-Swift_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		2E3C08949B150625CE022EFA32BE71F2 /* Pods-TTFFont-Swift_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81A057BA084ADB382DC5FDE2B40F8973 /* Build configuration list for PBXNativeTarget "Pods-TTFFont-Swift_Tests" */;
+			buildPhases = (
+				8F38777E15CC62E689CEA82E85FE3B9C /* Headers */,
+				E4E83CD4BD84E10656059AE08B6A7A12 /* Sources */,
+				C6B7DE28A3FF68365374217C9E782EA2 /* Frameworks */,
+				7FCBE505B55878E3715C48D7F99B50C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E7436A6B288EA36019F34D0BC9B3709 /* PBXTargetDependency */,
+			);
+			name = "Pods-TTFFont-Swift_Tests";
+			productName = Pods_TTFFont_Swift_Tests;
+			productReference = B3048AF8A2B973413102A32486FBCAE5 /* Pods-TTFFont-Swift_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		A9C51183A8D0D58CDEA0DD0A1BEC7FF4 /* TTFFont-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E6BF62BB0033AFD4EE6ED927356E9A4 /* Build configuration list for PBXNativeTarget "TTFFont-Swift" */;
+			buildPhases = (
+				8776F15526ECBEDE6D0FBDB0AC71D91D /* Headers */,
+				880785F5EFE6ED05F49BDB007CA2227D /* Sources */,
+				7CC619888786FE9F162D1B39CF320440 /* Frameworks */,
+				C854E653D506153019B22F984246B099 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TTFFont-Swift";
+			productName = TTFFont_Swift;
+			productReference = 43A96E4A58E325CC4BEEC2F10A85462B /* TTFFont-Swift */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = D9A7BA2443CAF26FF0CADD47D0A39789 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				079EE789B9EF3AFF018D79223A557642 /* Pods-TTFFont-Swift_Example */,
+				2E3C08949B150625CE022EFA32BE71F2 /* Pods-TTFFont-Swift_Tests */,
+				A9C51183A8D0D58CDEA0DD0A1BEC7FF4 /* TTFFont-Swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4ABB2847675CF480C54A245E6AAD8C05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FCBE505B55878E3715C48D7F99B50C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C854E653D506153019B22F984246B099 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		880785F5EFE6ED05F49BDB007CA2227D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C94248FC5812DA10416B5373C72F701 /* TTFFont.swift in Sources */,
+				2BAC35440DC5AFDA3F05CB6B86E2C3DC /* TTFFont-Swift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4ACCFB1029AC9B9C047FD734087570A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B46CD235136BF0CD4C3D321B3BA10128 /* Pods-TTFFont-Swift_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4E83CD4BD84E10656059AE08B6A7A12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B8C1692AA301744C742A9E07AD038C5 /* Pods-TTFFont-Swift_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3E7436A6B288EA36019F34D0BC9B3709 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TTFFont-Swift_Example";
+			target = 079EE789B9EF3AFF018D79223A557642 /* Pods-TTFFont-Swift_Example */;
+			targetProxy = 9A7D2E4195AA380747C6018DDE6F9FBC /* PBXContainerItemProxy */;
+		};
+		9535120B3B9D6C417538A185C7B64A06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "TTFFont-Swift";
+			target = A9C51183A8D0D58CDEA0DD0A1BEC7FF4 /* TTFFont-Swift */;
+			targetProxy = E7359CBBF84BDC51FD25320F2EB1BA40 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		43F5E6255EBC7165BD8B09034542812A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D79531F79559E3F34AAB0CD80FFFCBD /* Pods-TTFFont-Swift_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TTFFont-Swift_Example/Pods-TTFFont-Swift_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TTFFont-Swift_Example/Pods-TTFFont-Swift_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7459EDE07F5C0F0DD485C845C6CB8E71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1ACCB1CCD707300F88BF8159B3E4406 /* TTFFont-Swift.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TTFFont-Swift/TTFFont-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TTFFont-Swift/TTFFont-Swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TTFFont-Swift/TTFFont-Swift.modulemap";
+				PRODUCT_MODULE_NAME = TTFFont_Swift;
+				PRODUCT_NAME = TTFFont_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9207CAFCCB33CD86B54F21A4D98C4FB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C080B189DA82F4C48EA73333B202D5C /* Pods-TTFFont-Swift_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TTFFont-Swift_Tests/Pods-TTFFont-Swift_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TTFFont-Swift_Tests/Pods-TTFFont-Swift_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9694BC5F276956C725D25A8690761B9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8D159EAB643A64B0FBB779AE65D32A7 /* Pods-TTFFont-Swift_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TTFFont-Swift_Tests/Pods-TTFFont-Swift_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TTFFont-Swift_Tests/Pods-TTFFont-Swift_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		BBE590857F98F82CDFAAA5CD3E4E02DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6007189C3C6E09F2562F59B0F90E6294 /* TTFFont-Swift.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TTFFont-Swift/TTFFont-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TTFFont-Swift/TTFFont-Swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TTFFont-Swift/TTFFont-Swift.modulemap";
+				PRODUCT_MODULE_NAME = TTFFont_Swift;
+				PRODUCT_NAME = TTFFont_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D4FE15D1715C2A39AAA30763BC01BA25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2F631FEE1DEFF1F651760EB46E8AF37 /* Pods-TTFFont-Swift_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TTFFont-Swift_Example/Pods-TTFFont-Swift_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TTFFont-Swift_Example/Pods-TTFFont-Swift_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05A7FFA746D6EB2CE67099AC673C9558 /* Build configuration list for PBXNativeTarget "Pods-TTFFont-Swift_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4FE15D1715C2A39AAA30763BC01BA25 /* Debug */,
+				43F5E6255EBC7165BD8B09034542812A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E6BF62BB0033AFD4EE6ED927356E9A4 /* Build configuration list for PBXNativeTarget "TTFFont-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBE590857F98F82CDFAAA5CD3E4E02DE /* Debug */,
+				7459EDE07F5C0F0DD485C845C6CB8E71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81A057BA084ADB382DC5FDE2B40F8973 /* Build configuration list for PBXNativeTarget "Pods-TTFFont-Swift_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9207CAFCCB33CD86B54F21A4D98C4FB4 /* Debug */,
+				9694BC5F276956C725D25A8690761B9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

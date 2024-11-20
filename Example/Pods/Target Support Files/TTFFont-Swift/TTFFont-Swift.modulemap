@@ -1,0 +1,6 @@
+framework module TTFFont_Swift {
+  umbrella header "TTFFont-Swift-umbrella.h"
+
+  export *
+  module * { export * }
+}
