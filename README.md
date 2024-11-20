@@ -21,6 +21,8 @@ pod 'TTFFont-Swift'
 ```
 
 ```
+UIFont.registerCustomTTFFont()
+
 label.text = "测试的字体label"
 label.font = .font(.poppinsBold, size: 18)
         

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23094" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23094" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="0eD-4p-i3J">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -12,7 +12,7 @@
         <!--View Controller-->
         <scene sceneID="dnS-xT-yVe">
             <objects>
-                <viewController storyboardIdentifier="ViewController" id="0eD-4p-i3J" customClass="ViewController" customModule="Theme_RxSwift_Example" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ViewController" id="0eD-4p-i3J" customClass="ViewController" customModule="TTFFont_Swift_Example" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="PJ0-dh-ucq">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -30,25 +30,15 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Da1-cp-NSH" customClass="HMAVPlayerView" customModule="Theme_RxSwift_Example" customModuleProvider="target">
-                                <rect key="frame" x="20" y="517" width="335" height="120"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="120" id="rOP-bM-NhL"/>
-                                </constraints>
-                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="4Wx-E1-5DT"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="gxQ-cF-03R" firstAttribute="top" secondItem="4Wx-E1-5DT" secondAttribute="top" constant="100" id="554-go-ZO2"/>
-                            <constraint firstItem="Da1-cp-NSH" firstAttribute="leading" secondItem="4Wx-E1-5DT" secondAttribute="leading" constant="20" id="7un-6v-xvO"/>
                             <constraint firstItem="xIR-xo-maa" firstAttribute="top" secondItem="gxQ-cF-03R" secondAttribute="bottom" constant="50" id="Akn-m3-xRq"/>
-                            <constraint firstItem="4Wx-E1-5DT" firstAttribute="bottom" secondItem="Da1-cp-NSH" secondAttribute="bottom" constant="30" id="Cbj-9e-VVg"/>
                             <constraint firstItem="4Wx-E1-5DT" firstAttribute="trailing" secondItem="gxQ-cF-03R" secondAttribute="trailing" constant="60" id="HAC-Ua-Agq"/>
                             <constraint firstItem="4Wx-E1-5DT" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="gxQ-cF-03R" secondAttribute="trailing" symbolic="YES" id="Qsi-E5-9fp"/>
                             <constraint firstItem="4Wx-E1-5DT" firstAttribute="trailing" secondItem="xIR-xo-maa" secondAttribute="trailing" constant="60" id="TfG-tb-EPK"/>
-                            <constraint firstItem="4Wx-E1-5DT" firstAttribute="trailing" secondItem="Da1-cp-NSH" secondAttribute="trailing" constant="20" id="fRf-xj-wB4"/>
                             <constraint firstItem="gxQ-cF-03R" firstAttribute="leading" secondItem="4Wx-E1-5DT" secondAttribute="leading" constant="60" id="fWU-lS-zRU"/>
                             <constraint firstItem="xIR-xo-maa" firstAttribute="leading" secondItem="4Wx-E1-5DT" secondAttribute="leading" constant="60" id="nPI-Ly-b1l"/>
                             <constraint firstItem="4Wx-E1-5DT" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="xIR-xo-maa" secondAttribute="trailing" symbolic="YES" id="s2W-Kr-Fdh"/>
@@ -58,7 +48,6 @@
                     <connections>
                         <outlet property="btn" destination="xIR-xo-maa" id="PiO-G7-EtF"/>
                         <outlet property="label" destination="gxQ-cF-03R" id="XQi-MH-5Q4"/>
-                        <outlet property="playerView" destination="Da1-cp-NSH" id="zOM-9Z-cSI"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pDs-YP-WPT" sceneMemberID="firstResponder"/>

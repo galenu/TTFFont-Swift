@@ -18,6 +18,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        UIFont.registerCustomTTFFont()
+        
         label.text = "测试的字体label"
         label.font = .font(.poppinsBold, size: 18)
         
